@@ -1,0 +1,9 @@
+<h1>Students#edit</h1>
+<p>Find me in app/views/students/edit.html.erb</p>
+
+<h1>Edit Student Form:</h1>
+<%= form_for @student do |f| %>
+First Name: <%= f.text_field :first_name %> <br>
+Last Name: <%= f.text_field :last_name %> <br>
+<%= f.submit %>
+<% end %> <p>
